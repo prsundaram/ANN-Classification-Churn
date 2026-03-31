@@ -13,7 +13,7 @@ def load_artifacts():
 
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-    model_path = os.path.join(BASE_DIR, "model.keras")
+    model_path = os.path.join(BASE_DIR, "model.h5")
 
     model = tf.keras.models.load_model(model_path)
 
